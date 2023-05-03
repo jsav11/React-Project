@@ -23,7 +23,7 @@ const AboutPage = () => {
                 </Col>
                 <Col sm='6'>
                     <Card>
-                        <CardHeader className='bg-primary-text-white'>
+                        <CardHeader className='bg-primary text-white'>
                             <h3>Facts at a Glace</h3>
                         </CardHeader>
                         <CardBody>
@@ -41,14 +41,14 @@ const AboutPage = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card>
+                    <Card className='bg-light mt-3'>
                         <CardBody>
                             <blockquote className='blockquote'>
                                 <p> I will not follow where the path may lead, but I
                                     will go where there is no path, and I will leave
                                     a trail.
                                 </p>
-                                <footer>
+                                <footer className='blockquote-footer'>
                                     Muriel Strode,{' '}
                                     <cite title='Source Title'>
                                         "Wind-Wafted Wild Flowers" - The Open Court,
